@@ -10,14 +10,11 @@ class Ping
     /**
      * @param string $service
      * @param string $ip
-     * @param string $port
-     * @param string $timeout
+     * @param int $port
+     * @param int $timeout
      */
-    public function add(string $service, string $ip, string $port, string $timeout)
+    public function add(string $service = 'Localhost', string $ip = 'localhost', int $port = 80, int $timeout = 1)
     {
-        if (empty($ip)) {
-            $ip = "localhost";
-        }
         $this->_services[$service] = array("port" => $port, "service" => $service, "ip" => $ip, "timeout" => $timeout);
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace eZCorp\Ping\Ping;
+namespace eZCorp\Ping;
 
 class Ping
 {

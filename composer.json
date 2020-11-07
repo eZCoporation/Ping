@@ -6,6 +6,10 @@
         {
             "name": "Maxim Costa",
             "email": "maxim.costa@ezcorp.io"
+        },
+        {
+            "name": "Evann Gehin",
+            "email": "evann.gehin@ezcorp.io"
         }
     ],
     "minimum-stability": "dev",

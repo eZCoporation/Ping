@@ -1,0 +1,18 @@
+{
+    "name": "ezcorp/ping",
+    "description": "Librairie permettant de connaitre l'état d'un service (ping).",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Maxim Costa",
+            "email": "maxim.costa@ezcorp.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "eZCorp\\Ping": "src/"
+        }
+    }
+}
